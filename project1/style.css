@@ -1,0 +1,290 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+html{
+    scroll-behavior: smooth;
+}
+.contact_info{
+    color: white;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    transition: ease-in-out 0.5s;
+    text-decoration: underline;
+}
+.title:hover{
+    color: rgb(161, 32, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 6px rgb(78, 9, 9);
+}
+.titleimg{
+    height: 15%;
+    width: 15%;
+    align-items: center 500px;
+    float: right;
+}
+.titleimg2{
+    height: 15%;
+    width: 15%;
+    align-items: center 500px;
+    float: left;
+}
+.navBar{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% auto;
+    text-decoration: underline;
+}
+.navBar a{
+color: rgb(90, 49, 238);
+display: inline-block;
+padding: 1em;
+text-decoration: none;
+font-size: 2.5em;
+margin-left: 3%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.navBar li{
+    display: inline;
+    margin-right: 20px;
+}
+.con{
+    padding: 1em;
+}
+.img_container{
+width: 90%;
+margin: 2%;
+position: relative;
+}
+.im{
+    width: 100%;
+    display: block;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img1{
+    width: 45%;
+    margin: 1% 2%;
+}
+.txt1{
+    width: 45%;
+    background-color: snow;
+    box-shadow: 5px 5px 10px rgb(0, 17, 255); 
+    margin: 1% 2%;
+}
+.txt2{
+    width: 45%;
+    background-color: snow;
+    box-shadow: 5px 5px 10px rgb(110, 4, 4); 
+    margin: 1% 2%;
+}
+.txt3{
+    width: 45%;
+    background-color: snow;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0); 
+    margin: 1% 2%;
+}
+.txt4{
+    width: 45%;
+    background-color: snow;
+    box-shadow: 5px 5px 10px rgb(142, 146, 196); 
+    margin: 1% 2%;
+}
+.p1{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: navy;
+    margin: 3%;
+}
+.p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: navy;
+    margin: 3%;
+    padding-top: 1em;
+}
+.a1{
+    text-decoration: underline;
+    color: navy;
+    text-align: center;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bolder;
+}
+.p3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: navy;
+    margin: 3%;
+}
+.p4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: navy;
+    margin: 3%;
+}
+.a2{
+    text-decoration: underline;
+    color: navy;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.a3{
+    text-decoration: underline;
+    color: navy;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.a4{
+    text-decoration: underline;
+    color: navy;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.Seoul{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: blue;
+    text-decoration-line: underline;
+
+}
+.Seoul:hover{
+    color: rgb(201, 99, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Gwangju{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: blue;
+    text-decoration-line: underline;
+
+}
+.Gwangju:hover{
+color: blueviolet;
+font-size: 50px;
+}
+.Busan{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: blue;
+    text-decoration-line: underline;
+
+}
+.Busan:hover{
+    color: rgb(201, 99, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Incheon{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: blue;
+     text-decoration-line: underline;
+}
+.Incheon:hover{
+    color: rgb(201, 99, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+   
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 16, 211);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.footer:hover{
+    color: rgba(0, 0, 0, 0.029);
+}
+body{
+    background-color: burlywood;
+}
+/*------Contactinfo.html---------*/
+.title{
+    text-align: center;
+    color: rgb(247, 247, 252);
+    text-decoration: underline;
+    font-size: larger;
+    background-color: navy;
+}
+.socials{
+    width: 15%;
+   margin: 5px;
+   float: left;
+   clear: both;
+   color: white;
+}
+.mission{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: rgb(243, 237, 237);
+    padding: 10px;
+    margin: 1%;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+body{
+    background-color: navy;
+}
+.contact{
+    text-align: center;
+    color: rgb(247, 247, 252);
+    text-decoration: underline;
+    font-size: larger;
+    background-color: navy;
+}
+.inspire{
+    text-align: center;
+    color: rgb(247, 247, 252);
+    text-decoration: underline;
+    font-size: larger;
+    background-color: navy;
+}
+.mission2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: rgb(243, 237, 237);
+    padding: 10px;
+    margin: 1%;
+    border: 1px solid;
+    border-radius: 5px;
+}
