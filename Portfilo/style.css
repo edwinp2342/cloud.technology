@@ -1,0 +1,48 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+    html{
+        scroll-behavior: smooth;}
+
+.title{
+text-align: center;
+color: rgb(119, 22, 22);
+font-family: 'Times New Roman', Times, serif;
+text-decoration: underline;
+font-size: 2em;
+transition: ease-in-out 0.2s;
+}
+.title:hover{
+    color: rgb(21, 21, 109);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:3px 3px 6px rgb(0, 0, 0);
+}
+.aboutme{
+    width: 45% ;
+    color: mediumpurple;
+    margin: 2% 2%;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    color: rgb(104, 16, 16);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    text-decoration: underline;
+}
+.navbar:hover{
+
+}
+.quote{
+    color: rgb(104, 12, 12);
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: ease-in-out rgb(24, 64, 241);
+}
+.quote:hover{
+color: rgb(40, 40, 143);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-shadow: 3px 3px 6px rgb(0, 0, 0);
+}
