@@ -9,7 +9,7 @@ text-align: center;
 color: rgb(119, 22, 22);
 font-family: 'Times New Roman', Times, serif;
 text-decoration: underline;
-font-size: 2em;
+font-size: 80%;
 transition: ease-in-out 0.2s;
 }
 .body{
@@ -30,8 +30,9 @@ float: left;
 .aboutme{
     
     color: rgb(98, 17, 17);
-    margin: 2% 2%;
+    
     text-align: center;
+    font-size: 25px;
 
 }
 
@@ -58,13 +59,13 @@ text-shadow: 3px 3px 6px rgb(0, 0, 0);
 .p1{
     color: rgb(114, 19, 19);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1em;
+    font-size: 18px;
     text-align: center;
 }
 .p2{
     color: rgb(114, 19, 19);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1em;
+    font-size: 18px;
     text-align: center;
 }
 .phone{
@@ -87,4 +88,9 @@ text-shadow: 3px 3px 6px rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;
     text-align: center;
+}
+.Activites{
+    text-align: center;
+    text-decoration: underline;
+
 }
